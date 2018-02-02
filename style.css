@@ -1,0 +1,66 @@
+#pyramid {
+    line-height: 0;
+    font-size: 30px;
+}
+
+body {
+    font-family: "Courier New", monospace;
+    text-align: center;
+}
+
+input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+    margin-top: -4px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: rgb(189, 189, 189);
+}
+#mySelect{
+    padding-right: 15px;
+    margin-right: 35px;
+}
+.head{
+    height: 100px;
+    background-color: tomato;    
+}
+h2{
+    padding-top: 25px;
+    margin: 0;
+    font-size: 45px;
+}
+.container{
+    background-color: rgb(160, 160, 160);
+    border: 2px solid tomato;
+    height: 570px;
+    width: 600px;
+    margin: 0 auto;
+}
+.nav{
+    padding-top:15px;
+    margin: 0 auto; 
+    background-color: rgb(206, 206, 206);
+    height: 40px;
+    
+}
